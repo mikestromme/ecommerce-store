@@ -1,7 +1,7 @@
 
 
 from pathlib import Path
-import os
+import os # added for template
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -107,11 +107,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
-STATICFILES_DIRS = ['static/']
+STATIC_URL = 'static/' # added for template
+STATICFILES_DIRS = ['static/'] # added for template
 
-MEDIA_URL = 'media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = 'media/' # added for template
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # added for template
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
